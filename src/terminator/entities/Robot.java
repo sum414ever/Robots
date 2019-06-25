@@ -25,14 +25,11 @@ public class Robot implements Actions {
     @Override
     public void scream() {
         System.out.println("I`m " + getRobotName() + " and I  kill you");
-
     }
 
     @Override
     public void shoot() {
         System.out.println("I`m " + getRobotName() + " and I  start shooting");
-
     }
-
 }
 

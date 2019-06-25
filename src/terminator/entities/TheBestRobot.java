@@ -6,7 +6,6 @@ public class TheBestRobot extends Robot {
     private String changeResistant;
     private String typeOfDamage;
 
-
     public TheBestRobot(String robotName) {
         super(robotName);
     }
@@ -24,7 +23,6 @@ public class TheBestRobot extends Robot {
         System.out.println("If I fly to planet of " + typeOfDamage + " I must have " + changeResistant);
     }
 
-
     @Override
     public void move() {
         System.out.println("I`m " + getRobotName() + " and i`m the fastest");
@@ -39,6 +37,4 @@ public class TheBestRobot extends Robot {
     public void shoot() {
         System.out.println("I`m  " + getRobotName() + "  the best killer and I kill all people");
     }
-
-
 }

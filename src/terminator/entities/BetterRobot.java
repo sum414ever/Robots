@@ -12,7 +12,6 @@ public class BetterRobot extends Robot {
         super(robotName);
     }
 
-
     public void myNewForm() {
         if (rnd < UsedConstants.FIRST_RANGE) {
             changeForm = "Terminator T-800";
@@ -22,7 +21,6 @@ public class BetterRobot extends Robot {
             changeForm = "C-3PO";
         System.out.println("Now my name isn`t " + getRobotName() + ",my name is " + changeForm);
     }
-
     @Override
     public void move() {
         System.out.println("I move better than Robot");
@@ -37,5 +35,4 @@ public class BetterRobot extends Robot {
     public void shoot() {
         System.out.println("I shoot straighter than Robot ");
     }
-
 }

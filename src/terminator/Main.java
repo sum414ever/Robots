@@ -11,7 +11,6 @@ public class Main {
         robot.scream();
         robot.shoot();
 
-
         BetterRobot betterRobot = new BetterRobot("Second");
         betterRobot.move();
         betterRobot.scream();
@@ -23,6 +22,5 @@ public class Main {
         theBestRobot.scream();
         theBestRobot.shoot();
         theBestRobot.myResistant();
-
     }
 }
